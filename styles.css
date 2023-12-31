@@ -1,0 +1,50 @@
+.gradient-background {
+    background: linear-gradient(300deg, #00bfff, #ff4c68, #ef8172);
+    background-size: 180% 180%;
+    animation: gradient-animation 18s ease infinite;
+  }
+  
+  @keyframes gradient-animation {
+    0% {
+      background-position: 0% 50%;
+    }
+    50% {
+      background-position: 100% 50%;
+    }
+    100% {
+      background-position: 0% 50%;
+    }
+  }
+
+  .icon-square{
+    border-radius: 20%;
+    padding: 10px;
+  }
+
+
+  .testimonial{
+    background-color: grey;
+  }
+  #prc{
+    margin-left: 15%;
+    margin-right: 15%;
+  }
+
+  
+  .hprice > h1 {
+    text-align: center;
+
+  }
+  .hprice > p {
+    text-align: center;
+
+  }
+  .onet{
+    display: grid;
+  }
+  .dog-img{
+    border-radius: 50%;
+    
+    width: 100px;
+  
+  }
